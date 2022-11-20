@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page2</title>
+    <style>
+        {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    gap: 100px;
+}
+body{
+    background-color: #f0f2f5;
+    height: 100vh;
+}
+.container{
+    margin-top: 120px;
+    display: grid;
+    height:45%;
+    grid-template-columns:1fr 1fr ;
+}
+.textbox{
+    align-self: end;
+    justify-self:end;
+    height: 80%;
+}
+.w-50{
+    /*border: 2px solid rgb(55, 0, 255);*/ 
+    height: 7rem;
+    margin-bottom: -19px;
+}
+.line{
+    font-size: 24px;
+    margin-top: 5px;
+    margin-left:30px;
+    max-width:450px ;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    /*border: 2px solid rgb(255, 0, 64);*/ 
+}
+.card{
+   /* border: 2px solid rgb(225, 255, 0);*/
+    align-self: start;
+    justify-self:start;
+    display: block;
+    margin-top: 25px;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.login-form{
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #fff;
+    width: 70%;
+    height: 320px;
+    text-align: center;
+    box-shadow: 0px 0px 4px;
+}
+.lbtn button{
+    margin-top: 15px;
+ width: 100%;
+ background-color:#1877f2;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 28px;
+    color: #ffffff;
+    height: 40px;
+    font-weight: 700;
+    border: 1px;
+    cursor: pointer;
+}
+.lbtn button:hover{
+    background-color: #235da9;
+    transition: 0.5s;
+}
+input{
+    padding: 5px;
+    margin-top: 12px;
+    border-radius: 5px;
+    height: 45px;
+    width: 100%;
+color:  #979191;
+font-size: 17px;
+border: 1px solid rgb(219, 212, 212);
+}
+.text{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.text a{
+    text-decoration: none;
+    color: #1877f2;
+}
+.text a:hover{
+    text-decoration: underline;
+}
+hr{
+    margin-bottom: 14px;
+}
+.btn button{
+    margin: 5px;
+    padding: 12px;
+    border-radius: 7px;
+    background-color: rgb(66,183,42);
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 15px;
+    border: 1px;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color:rgb(5, 123, 19);
+    transition: 0.5s;
+}
+.text-center{
+    padding-right:150px;
+    padding-top: 12px;
+}
+.text-center a{
+    text-decoration: none;
+    color: black;
+}
+.footer{
+    background-color: #fff;
+margin-top: auto;
+}
+.footer p{
+    padding: 8px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 63%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+    color: #979191;
+    text-align: justify;
+   word-spacing: 25px;
+   
+   vertical-align: baseline;
+}
+.lan{
+border-bottom: 2px solid grey;
+}
+@media(max-width:1500px){
+    .textbox{
+        align-self:end;
+    }
+}
+@media(min-width:1500px){
+    .card{
+        margin: 0px 110px;
+    }
+}
+@media(max-width:970px){
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .textbox{
+        justify-self: center;
+        margin-bottom: 15px;
+        margin-left: 10%;
+        margin-right: 2%;
+        width:80px;
+    }
+    .card{
+    margin-left:20%;
+    }
+}
+    </style>
+</head>
+<body>
+    <h1>
+        Vortex
+        
+    </h1>
+    <image src="banner.jpg " width="1345" height="150" alt="this is my iamgge">
+    <br>
+    <h1><a href= index.html taegrt="blank"><b style=color:blue>Home</b></a></h1>
+    <h2>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b style=color:red> Ak47's portal</b></h2>
+    <form>
+        <fieldset>
+       <b>Name&emsp;&emsp;&emsp;</b><input type="name" name="name" required>
+       <p>
+       <b>Last Name&emsp;</b><input type="text" name="last_name"required>
+       </p>
+     
+       <b>Father name </b><input type="text" name="father_name"required>
+       <br>
+       <br> <b>Gender 
+
+       </b>
+       &emsp;&emsp; Male <input type="radio"required name="gender" id="male">Female <input type="radio" name="gender" id="female">
+       <br>
+       <br><b>Address</b>&emsp;&emsp;&emsp;<textarea type="adress"  id="adress" cols="100" rows="10"></textarea>
+       <br>
+       <!--agr app addres ka dba dena chhty hain to app just adress likhh kr andr input ki jga textarea ka attrinute dy dyn our yad rhy is ka closy bhi krna hai yani / ya lga ky wrna wo baki elemnts ko adrees wally dabt main likh ly ga-->
+       <br><b>Email&emsp;&emsp;&emsp;</b> <input type="email" id="email"required>
+    
+    <!--form banny ky lay sb sy phly app ny form tag ak istemal krna hai phir app first name likhny ky lya input type ="name" likhy our phir agr app server sy connect krwana chhty hain to app name ka aik attribute bnay our us ky andr koi name ikhy phir agr app option ksim ka use krna chhty hain to app input type ky andr radio likhy our phir name"--- " ky bad id ka istmel kry id ka mqsad hota hai ky appp aik wakt main aik option slesect kry//// Only one radio button in a group can be selected at the same time.-->
+    <br>
+    <br><b>Paswword&emsp; </b><input type="password" id="password"required>
+    <h2>Graduation information</h2>
+    <br>Degree of Graduation <select name="degre_gra" id="degree_gra" required>
+        
+        <option value=""required>select degree </option>
+        <option value="1st year">1st year</option>
+        <option value="2nd year">2nd year</option>
+        <option value="B.S.c   ">B.S.c</option>
+        
+    </select>
+    <br>
+    <br> Date of dgree  &emsp;&emsp;&emsp;<input type="date" name="date"required>
+    <br>
+    <br>
+     wesy hi<br><br><input type="checkbox"name="checkbox" id="checkbox"> i am laxy<br>
+    <br><input type="checkbox"name="checkbox" id="checkbox"> i am waser<br>
+<br><input type="checkbox"name="checkbox" id="checkbox"> i am payra bacha<br><br>
+<input type="button" onclick="alert('zada ni')" value="psuh"><br><br>
+<input type="image" src="ert.jpg" alt="Submit" width="48" height="48"><br>
+     <input type="submit"id="Pay now">&emsp;<input type="reset"name="" id="checkbox">
+     
+</fieldset>
+<table border="5" bgcolor="red" align ="center" cellpadding="10" cellspacing="5" bordercolor="blue" width="60%">
+    <thead>
+        <tr bgcolor="blue">
+            <th style="color:yellow">
+                Names
+            </th>
+            <th style="color:blue" bgcolor="yellow"></b>roll number</th>
+            <th style="color:yellow">subeject</th>
+        </tr>
+    </thead><br>
+    <tbody>
+        <tr>
+            <td bgcolor="grey" style="color:rgb(170, 255, 0)" align="center">
+                awais khalid
+            </td>
+          
+            <td rowspan="3">
+
+                21011598-114
+            </td>
+          
+            <td>English</td>
+            
+        </tr >
+        <tr>
+            <td bgcolor="grey" style="color:orangered" align="center">
+                waqas
+            </td>
+            <td >
+
+                21011598-115
+            </td>
+            <td>English</td>
+        </tr>
+    </tbody>
+</table>
+</form>
+</body>
+</html>
