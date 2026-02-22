@@ -1,9 +1,12 @@
-- 👋 Hi, I’m @HoneyAk47
-- 👀 I’m interested in ... web development
-- 🌱 I’m currently learning ... react js
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-awaiskhalid1205
+Hi, I’m @HoneyAk47
+
+👀 I’m interested in web scraping and data automation
+
+🌱 I’m currently learning advanced Scrapy and Selenium techniques
+
+💞️ I’m looking to collaborate on projects involving data extraction and analysis
+
+📫 How to reach me: awaiskhalid1205
 
 <!---
 HoneyAk47/HoneyAk47 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
